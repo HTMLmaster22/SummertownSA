@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Device Info - ST-PC-01</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("newbackground.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    position: relative;
+    min-height: 100vh;
+  }
+
+  .card {
+    position: absolute;
+    left: 277px;   /* same horizontal position */
+    top: 430px;    /* moved further down */
+    width: 480px;
+    height: auto;
+
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px 35px;
+    border-radius: 14px;
+    box-shadow: 0 0 22px rgba(0,0,0,0.8);
+    text-align: left;
+  }
+
+  h1 {
+    margin: 0 0 14px 0;
+    font-weight: normal;
+    font-size: 2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 8px;
+  }
+
+  .info {
+    margin: 14px 0;
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  .label {
+    font-weight: bold;
+    color: #DAA520;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Device Information</h1>
+    <div class="info"><span class="label">Asset ID:</span> ST-PC-01</div>
+    <div class="info"><span class="label">Device Type:</span> Desktop PC</div>
+    <div class="info"><span class="label">Model:</span> Dell Optiplex 7090</div>
+    <div class="info"><span class="label">Status:</span> Active</div>
+    <div class="info"><span class="label">Warranty Expiry:</span> 2026-05-14</div>
+    <div class="info"><span class="label">IT Contact:</span> it@summertown.com.sa</div>
+  </div>
+</body>
+</html>
